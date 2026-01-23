@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        /* Navbar */
+        header {
+            background-color: #8f3f3f;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main */
+        main {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        main h2 {
+            color: #b35a5a;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+
+        main p {
+            max-width: 800px;
+            margin: 0 auto 60px;
+            color: #b35a5a;
+            line-height: 1.6;
+        }
+
+        /* Cards */
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: #fff;
+            width: 320px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            text-align: left;
+        }
+
+        .card h3 {
+            color: #b35a5a;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #333;
+            margin: 0;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #b35a5a;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 60px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Website Sederhana</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Tentang</a>
+            <a href="#">Kontak</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Selamat Datang</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus nobis natus libero similique illum ratione officia reiciendis, nemo amet culpa quod minus. Quia repellat eos eius in fuga corrupti.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Konten 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil atque reiciendis est vitae dolor, qui distinctio quibusdam incidunt repudiandae, tempore doloribus at quisquam sequi ut, cum eum delectus assumenda quis?
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Konten 2</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo illum sed, debitis omnis provident labore velit vero, temporibus iusto expedita repellendus voluptatibus magni porro minima praesentium quae odio totam recusandae!
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        © 2026 Website Sederhana
+    </footer>
+
+</body>
+</html>
