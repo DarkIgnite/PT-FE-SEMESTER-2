@@ -1,4 +1,5 @@
 let menu;
 
 if (menu === 'bakso') {
-    console.log('bakso');
+  console.log('bakso');
+}
